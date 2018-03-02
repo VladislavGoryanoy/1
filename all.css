@@ -14,7 +14,7 @@ th {
 	background: wheat;
 	padding: 5px;
     }
-#navbar {
+.navbar {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
@@ -24,7 +24,7 @@ th {
 	text-align: center;
 	background-color: #33ADFF;
 }
-#navbar a {
+.navbar a {
 	color: #fff;
 	padding: 5px 10px;
 	text-decoration: none;
@@ -32,8 +32,8 @@ th {
 	display: inline-block;
 	width: 100px;
 	}
-#navbar a:hover {
+.navbar a:hover {
 	border-radius: 20px 5px;
 	background-color: #0066FF;
 }
-#navbar li { display: inline; }
+.navbar li { display: inline; }
