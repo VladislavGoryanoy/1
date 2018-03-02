@@ -1,17 +1,39 @@
-    hr {
-         border: none;
-         background-color: black;
-         color:black;
-         height: 2px;
+hr {
+	border: none;
+	background-color: black;
+	color:black;
+	height: 2px;
     }
-    table {
-        width: 100%;
-        background:white;
-        color: black;
-        border-spacing: 1px;
+table {
+	width: 100%;
+	background:white;
+	color: black;
+	border-spacing: 1px;
    }
-   th {
-        background: wheat;
-        padding: 5px;
+th {
+	background: wheat;
+	padding: 5px;
     }
-
+#navbar {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	border: 2px solid #0066FF;
+	border-radius: 20px 5px;
+	width: 100%;
+	text-align: center;
+	background-color: #33ADFF;
+}
+#navbar a {
+	color: #fff;
+	padding: 5px 10px;
+	text-decoration: none;
+	font-weight: bold;
+	display: inline-block;
+	width: 100px;
+	}
+#navbar a:hover {
+	border-radius: 20px 5px;
+	background-color: #0066FF;
+}
+#navbar li { display: inline; }
