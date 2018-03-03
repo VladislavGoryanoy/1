@@ -11,9 +11,14 @@ table {
 	border-spacing: 1px;
    }
 th {
-	background: wheat;
+	background:green;
 	padding: 5px;
-    }
+	color: white;
+	}
+td {background:#0066FF;
+	text-align: center;
+	color: white;
+	}
 .navbar {
 	margin: 0;
 	padding: 0;
