@@ -1,0 +1,63 @@
+body {
+    background-image: url(../img/background.jpg);
+}
+
+.text-color {
+   color: lightseagreen;
+}
+
+.div-orientation { 
+    margin-top: 1%;
+    text-align: center;
+}
+
+footer {
+    color: aquamarine;
+    text-align: center;
+}
+
+h1 {
+    color: mediumaquamarine;
+    text-align: center;
+}
+
+h3 {
+    color: lightgreen;
+}
+.loginform-orientation {
+    text-align: center;
+    margin-top: 12%;
+}
+
+a {
+    color: lightseagreen;
+}
+
+.navbar {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	border: 2px solid rgb(226, 166, 2);
+	border-radius: 20px 5px;
+	width: 100%;
+	text-align: center;
+	background-color: rgb(32, 97, 139);
+}
+
+.navbar a {
+	color: #fff;
+	padding: 5px 10px;
+	text-decoration: none;
+	font-weight: bold;
+	display: inline-block;
+	width: 100px;
+}
+
+.navbar a:hover {
+	border-radius: 20px 5px;
+	background-color: rgb(5, 25, 54);
+}
+
+.navbar li { 
+	display: inline; 
+}
